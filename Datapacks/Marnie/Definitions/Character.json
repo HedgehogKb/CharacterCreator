@@ -1,0 +1,56 @@
+{
+    "name": "Marnie",
+    "type": "character",
+    "spritesheet": "Marnie",
+    "stats": {
+        "weight": 5,
+        "walk speed": 128,
+        "ground deceleration": 256,
+        "air deceleration": 128
+    },
+    "passive": ["awareness"],
+    "moves": {
+        "standing" : {
+            "type": "attack",
+            "frames": [
+                {
+                    "x velocity": 0,
+                    "x acceleration": 0,
+
+                    "y velocity": 0,
+                    "y acceleration": 0,
+                    "sprite information": {
+                        "sprite x": 0,
+                        "sprite y": 0,
+                        "width": 64,
+                        "height": 64
+                    },
+                    "duration": 1,
+                    "hurtboxes": [
+                        {
+                            "center 1": [0,0],
+                            "center 2": [64,64],
+                            "radius": 5
+                        },
+                        {
+                            "center 1": [32,0],
+                            "center 2": [32,64],
+                            "radius": 4
+
+                        }
+                    ],
+                    "attack hitboxes": [
+                        {
+                            "center 1": [64,42],
+                            "center 2": [48,42],
+                            "radius": 3,
+                            "damage": 10
+                        }
+                    ]
+                },
+                {}
+            ]
+        }
+    }
+
+}
