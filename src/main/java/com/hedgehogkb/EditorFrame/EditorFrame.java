@@ -739,8 +739,8 @@ public class EditorFrame {
     }
 
     public static void refreshCanvas(){
-        System.out.println("x offset" + xOffset);
-        System.out.println("y offset: " + yOffset);
+/*         System.out.println("x offset" + xOffset);
+        System.out.println("y offset: " + yOffset); */
         canvas.render(curAnimFrame, xOffset, yOffset, zoom, selectedHitbox);
     }
 
