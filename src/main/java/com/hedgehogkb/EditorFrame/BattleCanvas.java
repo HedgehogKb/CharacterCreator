@@ -60,7 +60,7 @@ public class BattleCanvas extends Canvas {
             } finally {
                 g2d.dispose();
             }
-            //bs.show();
+            bs.show();
         } while (bs.contentsLost());
         
 
