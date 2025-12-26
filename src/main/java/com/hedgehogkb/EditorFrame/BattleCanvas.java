@@ -27,7 +27,7 @@ public class BattleCanvas extends Canvas {
 
         BufferStrategy bs = getBufferStrategy();
         if (bs == null) {
-            createBufferStrategy(3);
+            createBufferStrategy(2);
             
             bs = getBufferStrategy();
         }
@@ -60,7 +60,7 @@ public class BattleCanvas extends Canvas {
             } finally {
                 g2d.dispose();
             }
-            bs.show();
+            //bs.show();
         } while (bs.contentsLost());
         
 
